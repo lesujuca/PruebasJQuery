@@ -33,10 +33,20 @@ section{
     cursor: pointer;
     padding: 10px;
     border-bottom: 5px solid black;
+    opacity: 0.85;
 }
 
 .panel_contenido{
     background-color: lightgreen;
-    padding: 5px;
+    padding: 10px 25px;
     display: none;
+    text-indent: 1em;
+    text-align: justify;
 }
+
+.solido{
+    opacity: 1;
+    color: lightgreen;
+    font-weight: bold;
+}
+
