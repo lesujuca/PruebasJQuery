@@ -1,5 +1,5 @@
 <?php
-header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Origin: http://www.ejemplo.com http://www.otro-ejemplo.com');
 if (isset($_POST['nombre']) && !empty($_POST['nombre'])
 	&& isset($_POST['mensaje']) && !empty($_POST['mensaje'])) {
 	$datos = Array();

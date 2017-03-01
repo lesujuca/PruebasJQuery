@@ -71,6 +71,10 @@ main > * {
     padding: 20px;
 }
 
+.contenido p{
+    text-align: justify;
+}
+
 .contenido h1 {
     margin-top: 0;
     font-size: 30px;
@@ -141,7 +145,13 @@ main > * {
     margin: 15px 0;
 }
 
-.contenido input, .contenido textarea {
+.contenido input, .contenido textarea, .contenido label{
+    font-family: verdana;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.contenido input[type=text], .contenido input[type=submit], .contenido textarea {
     padding: 10px;
     margin-top: 3px;
     display: block;
@@ -153,13 +163,15 @@ main > * {
 }
 
 .contenido input[type=submit] {
-    padding: 10px;
     background-color: black;
     color: white;
-    width: 100%;
     font-size: 15px;
 }
 
 li > span {
     background-color: lightgreen;
+}
+
+.contenido input[type=checkbox] {
+    margin-bottom: 10px;
 }
